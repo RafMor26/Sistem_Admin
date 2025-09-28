@@ -1,4 +1,4 @@
-# SISTEMA ERP - PROYECTO INTEGRADO
+# SISTEM - PROYECTO INTEGRADO
 
 Este proyecto utiliza **SQLite** como motor de base de datos predeterminado, lo que permite ejecutar el sistema sin configuraciones adicionales. 
 
