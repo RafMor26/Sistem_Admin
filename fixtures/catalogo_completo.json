@@ -1,0 +1,88 @@
+[
+  {
+    "model": "usuarios.usuario",
+    "pk": 1,
+    "fields": {
+      "nombre": "Ana Torres",
+      "email": "ana.torres@example.com",
+      "telefono": "991112223",
+      "contrasena": "clave123",
+      "estado": true
+    }
+  },
+  {
+    "model": "usuarios.usuario",
+    "pk": 2,
+    "fields": {
+      "nombre": "Carlos Rivas",
+      "email": "carlos.rivas@example.com",
+      "telefono": "993334445",
+      "contrasena": "clave456",
+      "estado": true
+    }
+  },
+  {
+    "model": "clientes.cliente",
+    "pk": 1,
+    "fields": {
+      "nombre": "Comercial Los Andes",
+      "rut": "55555555-5",
+      "direccion": "Av. Los Andes 1500",
+      "telefono": "227776655",
+      "email": "contacto@losandes.com",
+      "estadoCondicion": true
+    }
+  },
+  {
+    "model": "clientes.cliente",
+    "pk": 2,
+    "fields": {
+      "nombre": "Distribuidora Austral",
+      "rut": "66666666-6",
+      "direccion": "Ruta Sur Km 12",
+      "telefono": "226664433",
+      "email": "ventas@austral.cl",
+      "estadoCondicion": true
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Aceite Vegetal 1L",
+      "categoria": "Alimentos",
+      "precioBase": "1200.00"
+    }
+  },
+  {
+    "model": "productos.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Detergente 500ml",
+      "categoria": "Limpieza",
+      "precioBase": "850.00"
+    }
+  },
+  {
+    "model": "proveedores.proveedor",
+    "pk": 1,
+    "fields": {
+      "nombre": "Agroindustrial Norte",
+      "rut": "12121212-1",
+      "direccion": "Camino Norte 234",
+      "telefono": "224445556",
+      "email": "ventas@agronorte.cl"
+    }
+  },
+  {
+    "model": "proveedores.proveedor",
+    "pk": 2,
+    "fields": {
+      "nombre": "Química del Sur",
+      "rut": "34343434-3",
+      "direccion": "Parque Industrial Sur 890",
+      "telefono": "229998877",
+      "email": "contacto@quimicasur.cl"
+    }
+  }
+]
